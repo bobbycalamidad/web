@@ -20,4 +20,34 @@ body{
 }
 #capçalera div{
 	padding: 1em;
+
+@keyframes fadeEffect{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+	
+@media (max-width: 992px){
+  #izxi{
+    min-height:45px;
+  }
+  #i5og{
+    min-height:45px;
+  }
+  #i9jz{
+    min-height:45px;
+  }
+  #ihct{
+    min-height:45px;
+  }
+}
+	
+@media (max-width: 768px){
+  .row{
+    flex-wrap:wrap;
+  }
+
 }
