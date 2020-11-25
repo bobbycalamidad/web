@@ -36,22 +36,12 @@ body{
 }
 	
 @media (max-width: 992px){
-  #izxi{
+  #capçalera div{
     min-height:45px;
   }
-  #i5og{
-    min-height:45px;
-  }
-  #i9jz{
-    min-height:45px;
-  }
-  #ihct{
-    min-height:45px;
-  }
-}
 	
 @media (max-width: 768px){
-  .row{
+  #capçalera{
     flex-wrap:wrap;
   }
 
