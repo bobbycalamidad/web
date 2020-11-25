@@ -2,12 +2,11 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/cssfamily=Open+Sans');
+
 body{
 	margin: 0;
-	color: black;
-	font-family: "Open Sans", sans-serif;
-	text-align: left;
-	font-size: 1.25em;
+	width: 90%;
 }
 			
 #capçalera{
@@ -18,14 +17,22 @@ body{
   	padding: 10px;
 }
 
-#capçalera div{
+#element-capçalera{
 	min-height: 75px;
-	max-width: 50%;
-	flex-grow:1;
+	flex-grow: 1;
 	flex-basis: 100%;
+	padding: 1em;
+}
+
+#texte-capçalera{
 	padding: 10px;
-	
-}	
+	color: black;
+	font-family: "Open Sans", sans-serif;
+	text-align: left;
+	font-size: 1.25em;
+	max-width: 50%;
+}
+		
 
 @keyframes fadeEffect{
   from{
